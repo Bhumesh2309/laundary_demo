@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+}
+
+.nav-logo .logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #2d392e;
+}
+
+.nav-contant{
+    display:flex;
+    gap: 20px;
+}
+.nav-contant a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+
+.nav-user a{
+    text-decoration:none;
+    background-color: #b1cef1;
+    color: rgba(33, 78, 255, 0.652);
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.hero-section{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height:calc(100vh - 80px);
+    background-color: #fff;
+    padding:50px;
+}
+
+.hero-section .left-div{
+    flex:1;
+    padding-right: 10px;
+    padding-left: 150px;
+    text-align:left;
+}
+
+.hero-section .right-div{
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero-heading{
+    padding: 0;
+    font-size:80px;
+    color:#333;
+    line-height:1.2;
+}
+.hero-section .hero-laundary{
+    font-size: 50px;
+    color:#2d8af3;
+}
+
+.hero-section .hero-decription{
+    padding:0 80px 0 0;
+    font-size: 1.2rem;
+    color:#8a8181;
+    margin-bottom: 50px;
+}
+
+.hero-section .book-button {
+    background-color: #2d8af3;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.hero-section .hero-image {
+    max-width: auto;
+    height: 500px;
+    border-radius: 10px;
+}
